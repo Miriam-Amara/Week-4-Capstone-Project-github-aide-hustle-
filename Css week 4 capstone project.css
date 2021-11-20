@@ -1,0 +1,43 @@
+/* Container holding the image and text*/
+.container-row{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.column-1{
+    flex: 50%;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.first{
+    position: absolute;
+    top: 250px;
+    margin-left: 200px;
+}
+.second{
+    position:absolute;
+    top: 260px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 500px;
+}
+.column-2{
+    flex: 50%;
+    margin-top: 20px;
+    margin-left: -400px;
+    position: relative;
+}
+.third{
+    position: absolute;
+    top: 250px;
+    margin-left: 200px;
+}
+.fourth{
+    position: absolute;
+    top: 260px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 500px;
+}
